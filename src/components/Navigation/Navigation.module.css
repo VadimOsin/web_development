@@ -1,0 +1,72 @@
+
+.container {
+    position: relative;
+    display: flex;
+    margin-top: 23px;
+    margin-left: 12px;
+    width: fit-content;
+    border-bottom: 1px solid #3B3482;
+   color: #3B3482;
+}
+
+.iconWrapper {
+    cursor: pointer;
+    background: #F6F5FF;
+    width: 15px;
+    height: 11px;
+    padding: 3px 2px;
+    box-shadow: inset 1px 4px 4px rgba(146, 136, 255, 0.42);
+    border-radius: 4px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 28px;
+}
+
+.iconWrapperActive {
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+    background: #CDC9FF;
+    box-shadow: inset 1px 4px 4px rgba(146, 136, 255, 0.42);
+    border-radius: 4px;
+    padding: 7px 4px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 28px;
+}
+
+.statusContainer {
+    position: absolute;
+    right: -0%;
+    display: flex;
+    flex-direction: column;
+    width: 53px;
+    height: 47px;
+    left: 87px;
+    top: -7px;
+    background: #CDC9FF;
+    box-shadow: 0px 4px 6px #7069B6, inset -6px -6px 12px #FFFFFF;
+    border-radius: 7px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #E893F0;
+    border-bottom: 1px solid #1A145B;
+    padding-left: 7px;
+    padding-top: 2px;
+}
+
+.disabled {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #181071;
+    border-bottom: 1px solid #1A145B;
+    padding-left: 7px;
+    padding-top: 2px;
+}

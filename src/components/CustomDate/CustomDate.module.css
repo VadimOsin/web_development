@@ -1,0 +1,35 @@
+.container {
+    background-image: url("../../assets/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 219px;
+    height: 64px;
+}
+
+
+.date {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    margin-top: 6px;
+    margin-left: 22px;
+}
+
+.line {
+    position: absolute;
+    width: 97px;
+    height: 0px;
+    margin-left: 80px;
+    border: 1px solid #FFFFFF;
+
+}
+.task{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 141px;
+}

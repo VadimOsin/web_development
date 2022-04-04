@@ -1,0 +1,79 @@
+.modal-wrapper{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+}
+
+.modal{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto,sans-serif;
+    padding: 32px 104px;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 99999;
+    color: black;
+}
+
+.appOverlay {
+ position: fixed;
+ z-index: 5;
+ opacity: 0.5;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ width: 100%;
+ height: 100%;
+ background-color: grey;
+}
+
+.label{
+    text-align: center;
+    color: #3B3482;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.input{
+    margin: 10px 0;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    width: 200px;
+}
+
+.buttonGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnCancel{
+    background: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btnCreate{
+    background: darkseagreen;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
