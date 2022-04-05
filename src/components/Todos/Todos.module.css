@@ -1,30 +1,30 @@
-.list{
-
+.list {
+    margin-top: 11px;
 }
 
-.item{
-    margin-top: 14px;
+.item {
     cursor: pointer;
     display: flex;
     align-items: center;
     width: 200px;
 }
 
-.item:hover{
+.item:hover {
     background: #9288FF;
     box-shadow: 1px 4px 8px #544CA8;
     border-radius: 5px;
     color: #ffffff;
 }
 
-.item:hover > .removeImg{
+.item:hover > .removeImg {
     display: block;
 }
-.item:hover > .text{
+
+.item:hover > .text {
     color: #ffffff;
 }
 
-.emptyCircle{
+.emptyCircle {
     width: 30px;
     height: 15px;
     margin: 5px;
@@ -33,10 +33,10 @@
     border: 1px solid #CBCBCB;
 }
 
-.text{
+.text {
     font-style: normal;
     width: 244px;
-    margin-left: 16px;
+    margin-left: 4px;
     margin-right: 60px;
     font-weight: 400;
     font-size: 13px;
@@ -44,11 +44,11 @@
     color: #5C5959;
 }
 
-.removeImg{
-  display: none;
+.removeImg {
+    display: none;
 }
 
-.container{
+.container {
     cursor: pointer;
     margin-top: 18px;
     margin-left: 159px;
@@ -57,16 +57,15 @@
     justify-content: flex-start;
 }
 
-.imgAdd{
+.imgAdd {
     width: 48px;
     height: 48px;
     background: rgba(146, 136, 255, 0.22);
     box-shadow: 1px 3px 4px #6F68B6;
     border-radius: 50%;
-
 }
 
-.addText{
+.addText {
     font-family: 'Roboto';
     width: 21px;
     height: 42px;

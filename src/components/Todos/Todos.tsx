@@ -1,6 +1,5 @@
 import S from './Todos.module.css'
 import RemoveImg from '../../assets/remove.png'
-import AddImg from '../../assets/Ellipse 7.png'
 import {useState} from "react";
 import Modal from "../Modal/Modal";
 import {useTodos} from "../../hook/useTodos";

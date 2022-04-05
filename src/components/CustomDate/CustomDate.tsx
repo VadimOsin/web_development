@@ -12,7 +12,6 @@ const CustomDate = () => {
             <div className={S.container}>
                     <p className={S.date}>{days[day]}, {monthName[month]} {day}, {year}</p>
                 <hr className={S.line}></hr>
-
                 <p className={S.task}>{useTodos().todos.length} tasks</p>
             </div>
             </>

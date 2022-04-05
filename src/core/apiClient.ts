@@ -9,6 +9,5 @@ export const apiClient = axios.create({
   },
   method: 'get',
   timeout: 10000000
-
 })
 

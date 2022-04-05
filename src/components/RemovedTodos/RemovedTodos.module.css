@@ -1,9 +1,8 @@
 .list {
-
+    margin-top: 11px;
 }
 
 .item {
-    margin-top: 14px;
     cursor: pointer;
     display: flex;
     align-items: center;
