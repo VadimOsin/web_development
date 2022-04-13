@@ -16,14 +16,14 @@ const Modal:FC<TProps>=({setModal})=> {
   }
  return(
    <>
-    <article className={S.modal}>
+    <div className={S.modal}>
       <h1 className={S.label}>Create To-Do</h1>
       <input value={newTodo} onChange={handleChange} className={S.input}/>
       <div className={S.buttonGroup}>
         <button onClick={() => setModal(false)} className={S.btnCancel}>Cancel</button>
         <button onClick={handleCreate} className={S.btnCreate}>Create</button>
       </div>
-    </article>
+    </div>
     <div className={S.appOverlay}/>
   </>
  )
