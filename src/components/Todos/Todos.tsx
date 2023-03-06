@@ -23,9 +23,9 @@ const Todos = () => {
                 }
             </ul>
             <div className={S.container} onClick={() => setModal(true)}>
-                <p className={S.imgAdd}>
+                <div className={S.imgAdd}>
                     <p className={S.addText}>+
-                    </p></p>
+                    </p></div>
             </div>
             {isModal && <Modal setModal={setModal}/>}
         </>
